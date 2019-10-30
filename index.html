@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Error Page</title>
+
+    <style>
+    body{
+        background-color: lightgoldenrodyellow;
+        font-family: 'Merriweather', serif;
+    }
+    .error-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .error-wrapper > .error-heading {
+        margin-bottom: 42px;
+    }
+    img {
+       width: 50%; 
+    }
+    </style>
 </head>
 <body>
-    <h1>Hi Flexbox</h1>
-    <p>Some content</p>
+<div class="error-wrapper">
+    <div class="error-heading">
+        <h2>Yikes...Who knows when that page will be availiable, would you like to try another?</h2>
+    </div>
+    <img src="tbot.png" alt="">
+</div>
 </body>
 </html>
